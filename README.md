@@ -1,7 +1,3 @@
--[x] KZHDotNetCore
+- [x] KZHDotNetCore
 
-ADO DOT NET CRUD
-
-- [x] #739
-- [ ] https://github.com/octo-org/octo-repo/issues/740
-- [ ] Add delight to the experience when all tasks are complete :tada:
+- [x] ADO DOT NET CRUD
