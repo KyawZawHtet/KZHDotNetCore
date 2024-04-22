@@ -1,3 +1,3 @@
-[x]KZHDotNetCore
+-[x] KZHDotNetCore
 
 ADO DOT NET CRUD
