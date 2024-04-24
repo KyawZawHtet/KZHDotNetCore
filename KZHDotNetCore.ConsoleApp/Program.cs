@@ -43,8 +43,11 @@ AdoDotNetExample adoDotNetExample = new AdoDotNetExample();
 // adoDotNetExample.Edit(13);
 // adoDotNetExample.Edit(1);
 
-DapperExample dapperExample = new DapperExample();
-dapperExample.Run();
+// DapperExample dapperExample = new DapperExample();
+// dapperExample.Run();
+
+EfCoreExample efCoreExample = new EfCoreExample();
+efCoreExample.Run();
 
 Console.ReadKey();
 

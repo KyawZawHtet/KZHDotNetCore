@@ -10,6 +10,7 @@ internal static class ConnectionStrings
         DataSource = "DESKTOP-QMAAE64", // Server Name
         InitialCatalog = "KZHDotNetCore", // Database Name
         UserID = "sa",
-        Password = "Kyaw279!"
+        Password = "Kyaw279!",
+        TrustServerCertificate = true
     };
 }
