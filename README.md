@@ -4,4 +4,4 @@
 
 - [x] Dapper CRUD
 
-- [x] EFCore
+- [x] EFCore CRUD
