@@ -1,6 +1,8 @@
+using KZHDotNetCore.ConsoleApp.Dtos;
+using KZHDotNetCore.ConsoleApp.Services;
 using Microsoft.EntityFrameworkCore;
 
-namespace KZHDotNetCore.ConsoleApp;
+namespace KZHDotNetCore.ConsoleApp.EFCoreExamples;
 
 public class AppDbContext : DbContext
 {

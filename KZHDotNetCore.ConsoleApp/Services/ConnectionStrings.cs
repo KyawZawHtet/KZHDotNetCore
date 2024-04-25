@@ -1,11 +1,10 @@
 using System.Data.SqlClient;
-// ReSharper disable All
 
-namespace KZHDotNetCore.ConsoleApp;
+namespace KZHDotNetCore.ConsoleApp.Services;
 
 internal static class ConnectionStrings
 {
-    public static SqlConnectionStringBuilder SqlConnectionStringBuilder = new SqlConnectionStringBuilder()
+    public static readonly SqlConnectionStringBuilder SqlConnectionStringBuilder = new SqlConnectionStringBuilder()
     {
         DataSource = "DESKTOP-QMAAE64", // Server Name
         InitialCatalog = "KZHDotNetCore", // Database Name

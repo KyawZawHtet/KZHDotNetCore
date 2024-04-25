@@ -1,6 +1,8 @@
 ﻿using System.Data;
 using System.Data.SqlClient;
 using KZHDotNetCore.ConsoleApp;
+using KZHDotNetCore.ConsoleApp.AdoDotNetExamples;
+using KZHDotNetCore.ConsoleApp.EFCoreExamples;
 
 Console.WriteLine("Hello, World!");
 

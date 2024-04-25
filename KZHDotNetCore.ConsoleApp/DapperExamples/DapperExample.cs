@@ -1,10 +1,10 @@
 using System.Data;
 using System.Data.SqlClient;
 using Dapper;
+using KZHDotNetCore.ConsoleApp.Dtos;
+using KZHDotNetCore.ConsoleApp.Services;
 
-// ReSharper disable All
-
-namespace KZHDotNetCore.ConsoleApp;
+namespace KZHDotNetCore.ConsoleApp.DapperExamples;
 
 public class DapperExample
 {
