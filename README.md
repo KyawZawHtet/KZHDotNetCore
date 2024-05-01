@@ -6,4 +6,6 @@
 
 - [x] EFCore CRUD
 
-- [x] ASP.NET Core Web API CRUD
+- [x] ASP.NET Core Web API CRUD(EFCore)
+
+- [x] ASP.NET Core Web API CRUD(Dapper)
