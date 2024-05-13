@@ -13,14 +13,14 @@ namespace KZHDotNetCore.RestApiWithNLayer.Features.Snakes
             var snakes = JsonConvert.DeserializeObject<Snake[]>(jsonStr);
             return snakes!;
         }
-        
+
         [HttpGet("snakes")]
         public async Task<IActionResult> Snakes()
         {
             var snakes = await GetDataAsync();
             return Ok(snakes);
         }
-        
+
         [HttpGet("{id}")]
         public async Task<IActionResult> GetSnakeById(int id)
         {
@@ -37,11 +37,11 @@ namespace KZHDotNetCore.RestApiWithNLayer.Features.Snakes
         public async Task<IActionResult> GetSnakesByName(string name)
         {
             var snakes = await GetDataAsync();
-            if (snakes is null) 
+            if (snakes is null)
             {
                 return NotFound("No data found.");
             }
-            var filteredSnakes = snakes.Where(s => 
+            var filteredSnakes = snakes.Where(s =>
                 (s.EngName?.Contains(name, StringComparison.OrdinalIgnoreCase) ?? false) ||
                 (s.MMName?.Contains(name, StringComparison.OrdinalIgnoreCase) ?? false)
             ).ToArray();
@@ -50,9 +50,9 @@ namespace KZHDotNetCore.RestApiWithNLayer.Features.Snakes
             {
                 return NotFound("No data found.");
             }
+
             return Ok(filteredSnakes);
         }
-
     }
 }
 
