@@ -17,6 +17,7 @@
 
     <ItemGroup>
       <Folder Include="Features\LatHtaukBayDin\" />
+      <Folder Include="Features\Snakes\" />
     </ItemGroup>
 
     <ItemGroup>
