@@ -15,6 +15,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KZHDotNetCore.RestAPI", "KZ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KZHDotNetCore.Shared", "KZHDotNetCore.Shared\KZHDotNetCore.Shared.csproj", "{50E5D018-075A-4DAF-B0B4-326894350AB9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KZHDotNetCore.RestApiWithNLayer", "KZHDotNetCore.RestApiWithNLayer\KZHDotNetCore.RestApiWithNLayer.csproj", "{D164F1D9-1518-4E92-9DBB-5EEAB0C94328}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KZHDotNetCore.ConsoleAppHttpClient", "KZHDotNetCore.ConsoleAppHttpClient\KZHDotNetCore.ConsoleAppHttpClient.csproj", "{213D3F75-F116-4285-9FE8-07D4E6BD7269}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KZHDotNetCore.ConsoleAppHttpClientExamples", "KZHDotNetCore.ConsoleAppHttpClientExamples\KZHDotNetCore.ConsoleAppHttpClientExamples.csproj", "{6AE477DB-6C39-4E43-8155-D1295CFEB890}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KZHDotNetCore.ConsoleAppRestClientExamples", "KZHDotNetCore.ConsoleAppRestClientExamples\KZHDotNetCore.ConsoleAppRestClientExamples.csproj", "{421ABDE9-F429-4AAE-8E2B-BBD23F7BC578}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +41,22 @@ Global
 		{50E5D018-075A-4DAF-B0B4-326894350AB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50E5D018-075A-4DAF-B0B4-326894350AB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50E5D018-075A-4DAF-B0B4-326894350AB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D164F1D9-1518-4E92-9DBB-5EEAB0C94328}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D164F1D9-1518-4E92-9DBB-5EEAB0C94328}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D164F1D9-1518-4E92-9DBB-5EEAB0C94328}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D164F1D9-1518-4E92-9DBB-5EEAB0C94328}.Release|Any CPU.Build.0 = Release|Any CPU
+		{213D3F75-F116-4285-9FE8-07D4E6BD7269}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{213D3F75-F116-4285-9FE8-07D4E6BD7269}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{213D3F75-F116-4285-9FE8-07D4E6BD7269}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{213D3F75-F116-4285-9FE8-07D4E6BD7269}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AE477DB-6C39-4E43-8155-D1295CFEB890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AE477DB-6C39-4E43-8155-D1295CFEB890}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AE477DB-6C39-4E43-8155-D1295CFEB890}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AE477DB-6C39-4E43-8155-D1295CFEB890}.Release|Any CPU.Build.0 = Release|Any CPU
+		{421ABDE9-F429-4AAE-8E2B-BBD23F7BC578}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{421ABDE9-F429-4AAE-8E2B-BBD23F7BC578}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{421ABDE9-F429-4AAE-8E2B-BBD23F7BC578}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{421ABDE9-F429-4AAE-8E2B-BBD23F7BC578}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
