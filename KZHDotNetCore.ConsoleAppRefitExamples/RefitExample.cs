@@ -67,7 +67,8 @@ namespace KZHDotNetCore.ConsoleAppRefitExamples
         private async Task UpdateAsync(int id, string title, string author, string content)
         {
             BlogModel blog = new BlogModel() 
-            { BlogTitle = title,
+            {
+                BlogTitle = title,
                 BlogAuthor = author, 
                 BlogContent = content 
             };
@@ -78,7 +79,8 @@ namespace KZHDotNetCore.ConsoleAppRefitExamples
         private async Task UpdatePatchAsync(int id, string title, string author, string content)
         {
             BlogModel blog = new BlogModel() 
-            { BlogTitle = title,
+            { 
+                BlogTitle = title,
                 BlogAuthor = author, 
                 BlogContent = content 
             };

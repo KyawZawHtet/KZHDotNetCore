@@ -3,29 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KZHDotNetCore.ConsoleApp", "KZHDotNetCore.ConsoleApp\KZHDotNetCore.ConsoleApp.csproj", "{0D7EA803-E7DB-4335-999B-240290CD7A06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KZHDotNetCore.ConsoleApp", "KZHDotNetCore.ConsoleApp\KZHDotNetCore.ConsoleApp.csproj", "{0D7EA803-E7DB-4335-999B-240290CD7A06}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{1A0CCF6A-D37C-4CAA-93E4-F3ADDC794240}"
 	ProjectSection(SolutionItems) = preProject
-		README.md = README.md
 		KZHDotNetCoreDB.sql = KZHDotNetCoreDB.sql
+		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KZHDotNetCore.RestAPI", "KZHDotNetCore.RestAPI\KZHDotNetCore.RestAPI.csproj", "{03BC896A-619F-496D-8108-9FE24705F979}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KZHDotNetCore.RestAPI", "KZHDotNetCore.RestAPI\KZHDotNetCore.RestAPI.csproj", "{03BC896A-619F-496D-8108-9FE24705F979}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KZHDotNetCore.Shared", "KZHDotNetCore.Shared\KZHDotNetCore.Shared.csproj", "{50E5D018-075A-4DAF-B0B4-326894350AB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KZHDotNetCore.Shared", "KZHDotNetCore.Shared\KZHDotNetCore.Shared.csproj", "{50E5D018-075A-4DAF-B0B4-326894350AB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KZHDotNetCore.RestApiWithNLayer", "KZHDotNetCore.RestApiWithNLayer\KZHDotNetCore.RestApiWithNLayer.csproj", "{D164F1D9-1518-4E92-9DBB-5EEAB0C94328}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KZHDotNetCore.RestApiWithNLayer", "KZHDotNetCore.RestApiWithNLayer\KZHDotNetCore.RestApiWithNLayer.csproj", "{D164F1D9-1518-4E92-9DBB-5EEAB0C94328}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KZHDotNetCore.ConsoleAppHttpClient", "KZHDotNetCore.ConsoleAppHttpClient\KZHDotNetCore.ConsoleAppHttpClient.csproj", "{213D3F75-F116-4285-9FE8-07D4E6BD7269}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KZHDotNetCore.ConsoleAppHttpClient", "KZHDotNetCore.ConsoleAppHttpClient\KZHDotNetCore.ConsoleAppHttpClient.csproj", "{213D3F75-F116-4285-9FE8-07D4E6BD7269}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KZHDotNetCore.ConsoleAppHttpClientExamples", "KZHDotNetCore.ConsoleAppHttpClientExamples\KZHDotNetCore.ConsoleAppHttpClientExamples.csproj", "{6AE477DB-6C39-4E43-8155-D1295CFEB890}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KZHDotNetCore.ConsoleAppHttpClientExamples", "KZHDotNetCore.ConsoleAppHttpClientExamples\KZHDotNetCore.ConsoleAppHttpClientExamples.csproj", "{6AE477DB-6C39-4E43-8155-D1295CFEB890}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KZHDotNetCore.ConsoleAppRestClientExamples", "KZHDotNetCore.ConsoleAppRestClientExamples\KZHDotNetCore.ConsoleAppRestClientExamples.csproj", "{421ABDE9-F429-4AAE-8E2B-BBD23F7BC578}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KZHDotNetCore.ConsoleAppRestClientExamples", "KZHDotNetCore.ConsoleAppRestClientExamples\KZHDotNetCore.ConsoleAppRestClientExamples.csproj", "{421ABDE9-F429-4AAE-8E2B-BBD23F7BC578}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KZHDotNetCore.PizzApi", "KZHDotNetCore.PizzApi\KZHDotNetCore.PizzApi.csproj", "{8D0F67A3-8040-48C9-B798-159D5CBEA534}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KZHDotNetCore.PizzApi", "KZHDotNetCore.PizzApi\KZHDotNetCore.PizzApi.csproj", "{8D0F67A3-8040-48C9-B798-159D5CBEA534}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KZHDotNetCore.ConsoleAppRefitExamples", "KZHDotNetCore.ConsoleAppRefitExamples\KZHDotNetCore.ConsoleAppRefitExamples.csproj", "{0C974E40-F550-4CCC-A0C6-8A0A706E97C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KZHDotNetCore.ConsoleAppRefitExamples", "KZHDotNetCore.ConsoleAppRefitExamples\KZHDotNetCore.ConsoleAppRefitExamples.csproj", "{0C974E40-F550-4CCC-A0C6-8A0A706E97C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KZHDotNetCore.WinFormsApp", "KZHDotNetCore.WinFormsApp\KZHDotNetCore.WinFormsApp.csproj", "{D77E47F2-037C-45C1-B2A0-A72E407C2F73}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,9 +36,9 @@ Global
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{0D7EA803-E7DB-4335-999B-240290CD7A06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D7EA803-E7DB-4335-999B-240290CD7A06}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D7EA803-E7DB-4335-999B-240290CD7A06}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D7EA803-E7DB-4335-999B-240290CD7A06}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0D7EA803-E7DB-4335-999B-240290CD7A06}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03BC896A-619F-496D-8108-9FE24705F979}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{03BC896A-619F-496D-8108-9FE24705F979}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03BC896A-619F-496D-8108-9FE24705F979}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -69,6 +71,10 @@ Global
 		{0C974E40-F550-4CCC-A0C6-8A0A706E97C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C974E40-F550-4CCC-A0C6-8A0A706E97C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C974E40-F550-4CCC-A0C6-8A0A706E97C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D77E47F2-037C-45C1-B2A0-A72E407C2F73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D77E47F2-037C-45C1-B2A0-A72E407C2F73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D77E47F2-037C-45C1-B2A0-A72E407C2F73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D77E47F2-037C-45C1-B2A0-A72E407C2F73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
