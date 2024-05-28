@@ -16,5 +16,12 @@ namespace KZHDotNetCore.WinFormsApp.Queries
            (@BlogTitle
            ,@BlogAuthor
            ,@BlogContent)";
+
+        public static string BlogList { get; } = @"SELECT [BlogId]
+           ,[BlogTitle]
+           ,[BlogAuthor]
+           ,[BlogAuthor]
+           ,[BlogContent]
+           FROM [dob].[Tbl_Blog]";
     }
 }
