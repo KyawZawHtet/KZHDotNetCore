@@ -10,6 +10,7 @@ namespace KZHDotNetCore.WinFormsApp.Queries
     {
         public static string BlogCreate { get; } = @"INSERT INTO [dbo].[Tbl_Blog]
            ([BlogTitle]
+           ([BlogTitle]
            ,[BlogAuthor]
            ,[BlogContent])
      VALUES

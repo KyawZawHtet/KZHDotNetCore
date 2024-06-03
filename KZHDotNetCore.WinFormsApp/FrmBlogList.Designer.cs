@@ -52,6 +52,7 @@
             dgvData.RowTemplate.Height = 25;
             dgvData.Size = new Size(800, 450);
             dgvData.TabIndex = 0;
+            dgvData.CellContentClick += dgvData_CellContentClick;
             // 
             // colId
             // 
@@ -59,7 +60,6 @@
             colId.HeaderText = "ID";
             colId.Name = "colId";
             colId.ReadOnly = true;
-            colId.Visible = false;
             // 
             // colEdit
             // 

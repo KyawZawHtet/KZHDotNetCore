@@ -29,6 +29,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KZHDotNetCore.ConsoleAppRef
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KZHDotNetCore.WinFormsApp", "KZHDotNetCore.WinFormsApp\KZHDotNetCore.WinFormsApp.csproj", "{D77E47F2-037C-45C1-B2A0-A72E407C2F73}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KZHDotNetCore.NLayer.UI", "KZHDotNetCore.NLayer.UI\KZHDotNetCore.NLayer.UI.csproj", "{8A689A8D-7461-43F5-9B5C-1476FC0317EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KZHDotNetCore.NLayer.DataAccess", "KZHDotNetCore.NLayer.DataAccess\KZHDotNetCore.NLayer.DataAccess.csproj", "{923CBDDB-4E0B-4BB5-B52D-718BBC9648E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KZHDotNetCore.NLayer.BusinessLogic", "KZHDotNetCore.NLayer.BusinessLogic\KZHDotNetCore.NLayer.BusinessLogic.csproj", "{4DD59AF5-78D4-458A-AA8D-A2BF100F3ACE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KZHDotNetCore.WinFormsApp.SqlInjection", "KZHDotNetCore.WinFormsApp.SqlInjection\KZHDotNetCore.WinFormsApp.SqlInjection.csproj", "{D0A46850-26E8-455C-B4EF-2937E73585AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +83,22 @@ Global
 		{D77E47F2-037C-45C1-B2A0-A72E407C2F73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D77E47F2-037C-45C1-B2A0-A72E407C2F73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D77E47F2-037C-45C1-B2A0-A72E407C2F73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A689A8D-7461-43F5-9B5C-1476FC0317EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A689A8D-7461-43F5-9B5C-1476FC0317EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A689A8D-7461-43F5-9B5C-1476FC0317EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A689A8D-7461-43F5-9B5C-1476FC0317EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{923CBDDB-4E0B-4BB5-B52D-718BBC9648E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{923CBDDB-4E0B-4BB5-B52D-718BBC9648E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{923CBDDB-4E0B-4BB5-B52D-718BBC9648E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{923CBDDB-4E0B-4BB5-B52D-718BBC9648E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DD59AF5-78D4-458A-AA8D-A2BF100F3ACE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DD59AF5-78D4-458A-AA8D-A2BF100F3ACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DD59AF5-78D4-458A-AA8D-A2BF100F3ACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DD59AF5-78D4-458A-AA8D-A2BF100F3ACE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0A46850-26E8-455C-B4EF-2937E73585AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0A46850-26E8-455C-B4EF-2937E73585AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0A46850-26E8-455C-B4EF-2937E73585AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0A46850-26E8-455C-B4EF-2937E73585AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,8 +1,10 @@
 using Microsoft.Data.SqlClient;
 
+namespace KZHDotNetCore.WinFormsApp.SqlInjection;
+
 internal static class ConnectionStrings
 {
-    public static SqlConnectionStringBuilder sqlConnectionStringBuilder = new SqlConnectionStringBuilder()
+    public static readonly SqlConnectionStringBuilder SqlConnectionStringBuilder = new SqlConnectionStringBuilder()
     {
         DataSource = "DESKTOP-QMAAE64", // Server Name
         InitialCatalog = "KZHDotNetCore", // Database Name
