@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sweet Alert</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+
+<script>
+
+    // successMessage("This is success.");
+    // errorMessage("This is error.");
+
+    function successMessage(message){
+        Swal.fire({
+            title: "Success!",
+            text: message,
+            icon: "success"
+        });
+    }
+
+    function errorMessage(message){
+        Swal.fire({
+            title: "Error!",
+            text: message,
+            icon: "error"
+        });
+    }
+</script>
+
+</body>
+</html>

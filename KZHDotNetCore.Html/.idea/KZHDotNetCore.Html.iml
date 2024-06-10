@@ -10,5 +10,10 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="bootstrap" level="application" />
     <orderEntry type="library" name="jquery" level="application" />
+    <orderEntry type="library" name="sweetalert2" level="application" />
+    <orderEntry type="library" name="notiflix" level="application" />
+    <orderEntry type="library" name="@fengyuanchen/datepicker" level="application" />
+    <orderEntry type="library" name="ladda-bootstrap" level="application" />
+    <orderEntry type="library" name="icheck-bootstrap" level="application" />
   </component>
 </module>
